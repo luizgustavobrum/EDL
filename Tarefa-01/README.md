@@ -1,1 +1,1 @@
-#Trabalho sobre um função de alta expressividade
+# Trabalho sobre um função de alta expressividade

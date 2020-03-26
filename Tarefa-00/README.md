@@ -1,4 +1,4 @@
 # EDL
 
-##Repositório de EDL*
+##Repositório de EDL
 

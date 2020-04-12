@@ -1,3 +1,4 @@
+
 # Artigo - Estrutura de Linguagem 
 ## Luiz Gustavo Santos Brum 
 
@@ -21,6 +22,59 @@ Em relação ao paradigma, esta é multi; apresenta mais de um para programaçã
 - Funcional: o programa terá funções que geram resultados a partir de uma entrada de dados e de uma expressão, que retornarão em forma de valor. Portando, não altera outras partes do código.
     
 Por ultimo, o Swift é uma linguagem compilada e de forte tipagem. 
+
+### Programas
+
+__Observação:__ Os código são desenvolvidos na IDE Xcode na opção _Get start with a playground_, por isso as pastas estão com a extensão _.playground_. O código está no arquivo _Contents.swift_.
+
+#### Programas de Familiarização
+__Programa para exibir o contúdo das variáveis__
+```
+import UIKit
+
+let constante = 100 // let serve para declarar variaveis constantes na linguagem
+var variavel = "Inicialização" // var serve para declarar variaveis mutavei
+variavel = "Hello, World!"
+
+print(constante, variavel)
+
+```
+__Programa para exibir um conteúdo de um array__
+```
+import UIKit
+
+class Personagem{
+    var name: String
+    var idade: Int
+    var linguagem: String
+    
+    init(name: String, idade: Int, linguagem: String) {
+        self.name = name
+        self.idade = idade
+        self.linguagem = linguagem
+    }
+    
+    func toString() -> String {
+        return self.name + " " + String(self.idade) + " " + self.linguagem + "\n"
+    }
+}
+
+var list: [Personagem] = []
+list.append(Personagem(name: "Mark Zuck", idade: 35, linguagem: "PHP"))
+list.append(Personagem(name: "Linus T.", idade: 50, linguagem: "C"))
+list.append(Personagem(name: "Bill Gates", idade: 64, linguagem: "C#"))
+
+if(!list.isEmpty){
+    for var componente in list{
+        print(componente.toString())
+    }
+}else{
+    print("Lista Vazia")
+}
+
+```
+
+#### Programa Expressivo
 
 ### Referências
 - [Wikipedia-Swift](https://pt.wikipedia.org/wiki/Swift_(linguagem_de_programa%C3%A7%C3%A3o))

@@ -150,7 +150,7 @@ luta.lutaPrioriadeCombo()
 
 ```
 
-Saída:
+__Saída:__
 
 ```
 Quem ganhou foi o Caçador de Elfos de 79 de ataque, 88 de defesa e 89 de estratégia.
@@ -159,6 +159,8 @@ Quem ganhou foi o Matador de Dragão de 81 de ataque, 87 de defesa e 65 de estra
 
 Quem ganhou foi o Caçador de Elfos de 79 de ataque, 88 de defesa e 89 de estratégia.
 ```
+
+O programa desenvolvido acima é um pequeno jogo, que há o duelo entre dois personagens e que tem diferentes modos de luta. Este é um exemplo de como a função _extension_ funciona. O desenvolvedor adiciona uma nova funcionalidade em qualquer parte do código fonte não sendo necessário a utilização, por exemplo, de conceitos como herança para adicionar uma nova função sem alterar a classe de origem.
 
 ### Referências
 - [Wikipedia-Swift](https://pt.wikipedia.org/wiki/Swift_(linguagem_de_programa%C3%A7%C3%A3o))

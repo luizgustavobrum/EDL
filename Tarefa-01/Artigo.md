@@ -15,10 +15,10 @@ Em contrapartida, as linguagens Python, Ruby e Java tiveram determinada persuas�
 O Swift é um linguagem de alto nível, ou seja, possui uma sintaxe amigável com estruturas e abstrações para o uso. 
 
 Em relação ao paradigma, esta é multi; apresenta mais de um para programação, sendo estes: 
-    1. Estruturada: o programa terá um código com _ênfase em sequência, decisão e interação (subrotinas, laços de repetição, condicionais e estruturas em bloco)_;
-    2. Orientada a Objetos: o programa seguirá os conceitos de classe, herança e de interface. Vale ressaltar que a ultima é chamada de protocolo na linguagem;
-    3. Orientada a Protocolo: a primeira linguagem a se declarar com esse tipo de paradigma, o protocolo pode ser visto como _um escopo ou interface que define um conjunto de propriedades e métodos_ podendo ser implementada em classes e estruturas. A vantagem está em deixar o código mais organizado e evitar um cascatiamento de heranças;
-    4. Funcional: o programa terá funções que geram resultados a partir de uma entrada de dados e de uma expressão, que retornarão em forma de valor. Portando, não altera outras partes do código.
+- Estruturada: o programa terá um código com _ênfase em sequência, decisão e interação (subrotinas, laços de repetição, condicionais e estruturas em bloco)_;
+- Orientada a Objetos: o programa seguirá os conceitos de classe, herança e de interface. Vale ressaltar que a ultima é chamada de protocolo na linguagem;
+- Orientada a Protocolo: a primeira linguagem a se declarar com esse tipo de paradigma, o protocolo pode ser visto como _um escopo ou interface que define um conjunto de propriedades e métodos_ podendo ser implementada em classes e estruturas. A vantagem está em deixar o código mais organizado e evitar um cascatiamento de heranças;
+- Funcional: o programa terá funções que geram resultados a partir de uma entrada de dados e de uma expressão, que retornarão em forma de valor. Portando, não altera outras partes do código.
     
 Por ultimo, o Swift é uma linguagem compilada e de forte tipagem. 
 
